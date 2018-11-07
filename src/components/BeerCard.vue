@@ -18,7 +18,7 @@
 
     <v-card-actions>
       <v-btn flat color="blue" v-on:click="addToCart(beer)">Adicionar</v-btn>
-      <v-btn flat color="orange" @click.native="$router.push('/Detalhes')">Detalhes</v-btn> 
+      <v-btn flat color="orange" @click.native="$router.push('/Detalhes/'+ beer.name)">Detalhes</v-btn> 
       
     </v-card-actions>
   </v-card>

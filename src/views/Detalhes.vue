@@ -11,7 +11,7 @@
 
 <script>
 // Importação do componente
-import BeerDetalhes from "../components/BeerList.vue";
+import BeerDetalhes from "../components/BeerDetalhes.vue";
 
 
 export default {
